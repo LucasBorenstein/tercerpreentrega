@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+header{
+   border-bottom: 1px solid rgb(43, 55, 223) ; 
+   height: 5rem;
+}
+.container{
+    margin-top: 4rem;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.fuente{
+    font-size: 0.7cm;
+    padding-left: 1cm;
+    text-transform: uppercase;
+}
+
+/*Hero*/
+.textohero{
+    color: rgb(214, 218, 221); 
+}
+.fuente li a:hover{
+    background-color: rgb(77, 77, 255); 
+}
+.fondo{
+    background-image: url("../img/fondo.png");
+}
+
+/*Contacto*/
+
+.contacto{
+    background-color: rgb(70, 70, 248);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7rem;
+    margin-bottom: 1rem;
+     height: 1rem;
+}
+.contacto h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.red{
+    padding-left: 0.4cm;
+    text-align: center;
+}
+.wpp{
+    width: 45px;
+    height: 45px; 
+}
+.todo{
+    text-align: center;
+}
+
+.box{
+    padding-left: 0.4cm ;
+    font-size: larger;
+    margin-top: 0.4cm;
+    text-align: center;
+}
+.fondouno{
+    display: block; 
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto;
+}
+
+/*Informacion*/
+
+.info{
+    text-align: center;
+    margin-top: 5rem;
+}
+.qsinfo{
+    text-decoration: underline;
+}
+h4{
+    text-decoration:underline;
+}
+
+/*TuFunda*/
+
+.fundamain{
+    text-align: center;
+
+}
+.subtitulofunda{
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+/*Cadagama*/
+
+.qscadagama{
+    text-align: center;
+    text-decoration: underline;
+}
+.disponibles{
+    text-align: center;
+    color: blue;
+}
+.gamas{
+    text-align: center;
+}
+h5{
+    color:black;
+    text-decoration: underline;
+    font-size: 2rem;
+    
+    
+}
+.parrafocarrousel{
+    color: white;
+}
