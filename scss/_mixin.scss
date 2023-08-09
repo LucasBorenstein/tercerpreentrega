@@ -1,0 +1,31 @@
+@mixin estilo-boton($color, $padding) {
+    background-color: $color;
+    color: white;
+    padding: $padding;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .boton-primario {
+    @include estilo-boton($color_1, 10px 20px);
+  }
+
+
+  @mixin estilo-fuente($font-size, $padding-left, $text-transform) {
+    font-size: $font-size;
+    padding-left: $padding-left;
+    text-transform: $text-transform;
+    
+    li {
+      a {
+        &:hover {
+          background-color: $background-color_1;
+        }
+      }
+    }
+  }
+  
+  .fuente {
+    @include estilo-fuente(0.7cm, 1cm, uppercase);
+  }

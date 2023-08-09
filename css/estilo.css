@@ -1,4 +1,22 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap";
+.boton-primario {
+  background-color: rgb(214, 218, 221);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fuente {
+  font-size: 0.7cm;
+  padding-left: 1cm;
+  text-transform: uppercase;
+}
+.fuente li a:hover {
+  background-color: rgb(77, 77, 255);
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -26,6 +44,18 @@ header {
   background-color: rgb(77, 77, 255);
 }
 
+@keyframes animacion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animar-fade-in {
+  animation: animacion 1s ease-in-out;
+}
+
 /*Hero*/
 .textohero {
   color: rgb(214, 218, 221);
@@ -45,9 +75,21 @@ header {
   margin-bottom: 1rem;
   height: 1rem;
 }
-.contacto h2 {
+.contacto h1 {
   font-size: 2rem;
   text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.desvanecer-imagen {
+  animation: fadeIn 2s ease-in-out 1;
 }
 
 .red {
@@ -118,7 +160,7 @@ h4 {
   text-align: center;
 }
 
-h5 {
+h3 {
   color: black;
   text-decoration: underline;
   font-size: 2rem;

@@ -1,5 +1,6 @@
 
 @import "variables";
+@import "mixin";
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap";
 
 body {
@@ -30,6 +31,15 @@ header {
 		}
 	}
 }
+@keyframes animacion {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  .animar-fade-in {
+	animation: animacion 1s ease-in-out;
+  }
+
 
 /*Hero*/
 
@@ -50,11 +60,19 @@ header {
 	padding: 7rem;
 	margin-bottom: 1rem;
 	height: 1rem;
-	h2 {
+	h1 {
 		font-size: 2rem;
 		text-align: center;
 	}
 }
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  .desvanecer-imagen {
+	animation: fadeIn 2s ease-in-out 1;
+  }
 .red {
 	padding-left: 0.4cm;
 	text-align: center;
@@ -116,7 +134,7 @@ h4 {
 .gamas {
 	text-align: center;
 }
-h5 {
+h3 {
 	color: $color_4;
 	text-decoration: underline;
 	font-size: 2rem;
