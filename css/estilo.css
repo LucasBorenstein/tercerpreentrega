@@ -65,6 +65,11 @@ header {
   background-image: url("../img/fondo.png");
 }
 
+
+.navbar-nav .nav-link {
+  color: #4c00ff; 
+}
+
 /*Contacto*/
 .contacto {
   background-color: rgb(70, 70, 248);
