@@ -27,6 +27,37 @@ header {
   height: 5rem;
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+      background-color:#ffffff; 
+      position: fixed;
+      top: 56px; 
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      border-top: 1px solid #555; 
+      display: none; 
+      z-index: 1000; /
+  }
+
+  .navbar-toggler {
+      border: none;
+      background-color: transparent;
+  }
+
+  .navbar-collapse {
+    .navbar-collapse {
+      
+    transition: transform 0.3s ease-in-out; 
+  }
+   
+}
+
+.navbar-collapse.show {
+    transform: translateX(0); 
+}
+}
+
 .container {
   margin-top: 4rem;
 }
