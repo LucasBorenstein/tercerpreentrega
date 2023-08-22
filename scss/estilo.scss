@@ -114,6 +114,7 @@ header {
 		max-width: 100%;
 		height: auto;
 	}
+
 }
 
 /* Informacion */
@@ -139,14 +140,20 @@ header {
 		border-radius: 10px;
 		padding: 20px;
 	}
-}
-@keyframes animacion-fade-in {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 
-.animar-fade-in {
-    animation: animacion-fade-in 1s ease-in-out;
+	@keyframes animacion-fade-in {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.animar-fade-in {
+		animation: animacion-fade-in 1s ease-in-out;
+	}
 }
 
 /* Cadagama */
@@ -175,12 +182,19 @@ header {
 }
 
 @keyframes animacion-fade-in {
-    0% { opacity: 0; transform: translateY(-20px); }
-    100% { opacity: 1; transform: translateY(0); }
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .animar-fade-in {
-    animation: animacion-fade-in 1s ease-in-out;
+	animation: animacion-fade-in 1s ease-in-out;
 }
 
 
