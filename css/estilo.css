@@ -1,34 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap";
 
-.boton-primario {
-  background-color: rgb(214, 218, 221);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.fuente {
-  font-size: 0.7cm;
-  padding-left: 1cm;
-  text-transform: uppercase;
-}
-
-.fuente li a:hover {
-  background-color: rgb(77, 77, 255);
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-/*Header*/
-header {
-  border-bottom: 1px solid rgb(43, 55, 223);
-  height: 5rem;
-}
-
 @media (max-width: 300px) {
   .navbar-collapse {
     background-color: #ffffff;
@@ -58,6 +29,34 @@ header {
   .navbar-collapse.show {
     transform: translateX(0);
   }
+}
+.boton-primario {
+  background-color: rgb(214, 218, 221);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fuente {
+  font-size: 0.7cm;
+  padding-left: 1cm;
+  text-transform: uppercase;
+}
+
+.fuente li a:hover {
+  background-color: rgb(77, 77, 255);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+header {
+  border-bottom: 1px solid rgb(43, 55, 223);
+  height: 5rem;
 }
 
 .container {
